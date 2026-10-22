@@ -1,0 +1,12 @@
+# Documentation build output
+site/
+
+# Cache and virtual environment
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+
+# OS generated files
+.DS_Store
+Thumbs.db

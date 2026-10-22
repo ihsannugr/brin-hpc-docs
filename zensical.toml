@@ -1,14 +1,14 @@
 [project]
 site_url = "https://docs.hpc.brin.go.id/"
 site_name = "BRIN HPC Docs"
-# site_description = "Your project description"
-# site_author = "ihsa003"
+site_description = "Documentation for BRIN High Performance Computing (HPC) facilities and services"
+site_author = "Badan Riset dan Inovasi Nasional"
 
 copyright = "Copyright &copy; 2026 Badan Riset dan Inovasi Nasional"
 
-# repo_url = "https://github.com/user/repo"
-# repo_name = "user/repo"
-# edit_uri = "edit/main/docs/"
+repo_url = "https://github.com/ihsannugr/brin-hpc-docs"
+repo_name = "ihsannugr/brin-hpc-docs"
+edit_uri = "edit/main/docs/"
 
 nav = [
   { "Get started" = "index.md" },
@@ -25,8 +25,8 @@ nav = [
 language = "en"
 features = [
   "announce.dismiss",
-  # "content.action.edit",
-  # "content.action.view",
+  "content.action.edit",
+  "content.action.view",
   "content.code.annotate",
   "content.code.copy",
   "content.code.select",
@@ -78,13 +78,9 @@ scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
-# [[project.extra.social]]
-# icon = "fontawesome/brands/github"
-# link = "https://github.com/user/repo"
-
-# [[project.extra.social]]
-# icon = "fontawesome/brands/mastodon"
-# link = "https://fosstodon.org/@user"
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/ihsannugr/brin-hpc-docs"
 
 [project.markdown_extensions]
 abbr = {}
