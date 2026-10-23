@@ -11,8 +11,15 @@ repo_name = "ihsannugr/brin-hpc-docs"
 edit_uri = "edit/main/docs/"
 
 nav = [
-  { "Get started" = "index.md" },
-  { "Markdown in 5min" = "markdown.md" },
+  { "Home" = "index.md" },
+  { "Quick Start" = "quick_start/index.md" },
+  { "Policies" = "policies/index.md" },
+  { "Access" = "access/index.md" },
+  { "Resources" = "resources/index.md" },
+  { "Software" = "software/index.md" },
+  { "Support" = "support/index.md" },
+  { "Events and Workshops" = "events_and_workshops/index.md" },
+  { "Research Showcase" = "research_showcase/index.md" },
 ]
 
 # extra_css = ["stylesheets/extra.css"]

@@ -1,173 +1,96 @@
 ---
-icon: lucide/rocket
+icon: lucide/house
+title: Home
 ---
 
-# Get started
+# BRIN High Performance Computing Documentation
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
+Welcome to the central documentation portal for the **High Performance Computing (HPC)** facilities at **Badan Riset dan Inovasi Nasional (BRIN)**. 
 
-## Commands
+Our mission is to empower Indonesian researchers, academic institutions, and collaborators by providing world-class supercomputing infrastructure, high-throughput storage, and expert computational support.
 
-* [`zensical new`][new] - Create a new project
-* [`zensical serve`][serve] - Start local web server
-* [`zensical build`][build] - Build your site
+!!! info "New to BRIN HPC?"
+    If you are getting started for the first time, check out our [Quick Start](quick_start/index.md) guide and the [Access](access/index.md) instructions to set up your credentials.
 
-  [new]: https://zensical.org/docs/usage/new/
-  [serve]: https://zensical.org/docs/usage/preview/
-  [build]: https://zensical.org/docs/usage/build/
+---
 
-## Examples
+## Explore the Documentation
 
-### Admonitions
+<div class="grid cards" markdown>
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
+-   :lucide-rocket:{ .lg .middle } __[Quick Start](quick_start/index.md)__
 
-!!! note
+    ---
 
-    This is a **note** admonition. Use it to provide helpful information.
+    Fast-track your onboarding with prerequisites, login procedures, and your first job submission.
 
-!!! warning
+    [:octicons-arrow-right-24: Start here](quick_start/index.md)
 
-    This is a **warning** admonition. Be careful!
+-   :lucide-scale:{ .lg .middle } __[Policies](policies/index.md)__
 
-### Details
+    ---
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
+    Review acceptable use policies, fair-share scheduling, account quotas, and publication citation rules.
 
-??? info "Click to expand for more info"
+    [:octicons-arrow-right-24: View policies](policies/index.md)
 
-    This content is hidden until you click to expand it.
-    Great for FAQs or long explanations.
+-   :lucide-key-round:{ .lg .middle } __[Access](access/index.md)__
 
-## Code Blocks
+    ---
 
-> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
+    Understand eligibility, account request workflows, SSH key setup, and VPN connectivity.
 
-``` python hl_lines="2" title="Code blocks"
-def greet(name):
-    print(f"Hello, {name}!") # (1)!
+    [:octicons-arrow-right-24: Get access](access/index.md)
 
-greet("Python")
-```
+-   :lucide-server:{ .lg .middle } __[Resources](resources/index.md)__
 
-1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
+    ---
 
-    Code annotations allow to attach notes to lines of code.
+    Explore cluster hardware specifications, CPU & GPU partitions, memory nodes, and high-speed storage.
 
-Code can also be highlighted inline: `#!python print("Hello, Python!")`.
+    [:octicons-arrow-right-24: Hardware specs](resources/index.md)
 
-## Content tabs
+-   :lucide-box:{ .lg .middle } __[Software](software/index.md)__
 
-> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
+    ---
 
-=== "Python"
+    Learn how to load environment modules (Lmod), manage Conda environments, and run Apptainer containers.
 
-    ``` python
-    print("Hello from Python!")
-    ```
+    [:octicons-arrow-right-24: Software catalog](software/index.md)
 
-=== "Rust"
+-   :lucide-life-buoy:{ .lg .middle } __[Support](support/index.md)__
 
-    ``` rs
-    println!("Hello from Rust!");
-    ```
+    ---
 
-## Diagrams
+    Connect with HPC support engineers, browse FAQs, join consultation hours, or submit a support ticket.
 
-> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
+    [:octicons-arrow-right-24: Get assistance](support/index.md)
 
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
+-   :lucide-calendar:{ .lg .middle } __[Events and Workshops](events_and_workshops/index.md)__
 
-## Footnotes
+    ---
 
-> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
+    Stay updated on upcoming hands-on HPC workshops, technical webinars, and training materials.
 
-Here's a sentence with a footnote.[^1]
+    [:octicons-arrow-right-24: Training events](events_and_workshops/index.md)
 
-Hover it, to see a tooltip.
+-   :lucide-trophy:{ .lg .middle } __[Research Showcase](research_showcase/index.md)__
 
-[^1]: This is the footnote.
+    ---
 
+    Discover scientific achievements, publications, and impact stories powered by BRIN HPC.
 
-## Formatting
+    [:octicons-arrow-right-24: View publications](research_showcase/index.md)
 
-> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
+</div>
 
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
-- H~2~O
-- A^T^A
-- ++ctrl+alt+del++
+---
 
-## Icons, Emojis
+## Citing BRIN HPC in Publications
 
-> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
+All research publications, theses, and reports utilizing BRIN HPC resources must acknowledge our facilities. Proper acknowledgment helps justify ongoing funding and expansion of national computing infrastructure.
 
-* :sparkles: `:sparkles:`
-* :rocket: `:rocket:`
-* :tada: `:tada:`
-* :memo: `:memo:`
-* :eyes: `:eyes:`
+!!! note "Standard Acknowledgment Statement"
+    *"Computations were performed using the High Performance Computing (HPC) facilities at Badan Riset dan Inovasi Nasional (BRIN), Indonesia."*
 
-## Maths
-
-> Go to [documentation](https://zensical.org/docs/authoring/math/)
-
-$$
-\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-$$
-
-!!! warning "Needs configuration"
-    Note that MathJax is included via a `script` tag on this page and is not
-    configured in the generated default configuration to avoid including it
-    in a pages that do not need it. See the documentation for details on how
-    to configure it on all your pages if they are more Maths-heavy than these
-    simple starter pages.
-
-<script id="MathJax-script" src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-
-  document$.subscribe(() => {
-    MathJax.startup.output.clearCache()
-    MathJax.typesetClear()
-    MathJax.texReset()
-    MathJax.typesetPromise()
-  })
-</script>
-
-## Task Lists
-
-> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
-
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
-
-## Tooltips
-
-> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
-
-[Hover me][example]
-
-  [example]: https://example.com "I'm a tooltip!"
+For detailed citation instructions and bibtex entries, see [Policies & Acknowledgements](policies/index.md).
